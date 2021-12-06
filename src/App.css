@@ -1,0 +1,57 @@
+.header{
+  background: url('./assets/images/homeImages/header.jpg') center no-repeat;
+  height: 100vh;
+  background-size: cover;
+  opacity: 0.9;
+  margin-bottom: 40%;
+}
+
+.homeHeader{
+  color: rgb(46, 4, 4);
+  font-family: 'RampartOne';
+  text-shadow: 1px 2px 2px darkred;
+}
+
+.branch{
+  font-family: 'RampartOne';
+  transition: all 1s;
+  background-color: burlywood;
+}
+
+.branch:hover{
+  transform: translateY(-25%);
+  background-color: rgb(221, 112, 194);
+  cursor: pointer;
+}
+
+.kitchenTitle{
+  border: 1px solid palevioletred;
+  box-shadow: 2px 2px 1px plum;
+  cursor: grab;
+  color: brown;
+}
+
+.kitchen{
+  background: url('./assets/images/homeImages/kitchensBg.jpg') center no-repeat;
+  background-size: cover;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.kitchenTitle h1{
+  font-family: 'RampartOne';
+  color: rgb(29, 18, 1)
+}
+
+.kitchenType h2{
+  color:rgb(230, 84, 174);
+}
+
+.kitchenType:hover{
+  border-left: 5px solid red;
+  cursor: pointer;
+}
+
+.helpLink:hover{
+  color: rebeccapurple;
+}
